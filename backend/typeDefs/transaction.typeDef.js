@@ -22,7 +22,6 @@ const transactionTypeDef = `#graphql
     updateTransaction(input: UpdateTransactionInput!): Transaction!
     deleteTransaction(transactionId:ID!): Transaction!
   }
-
   type CategoryStatistics {
     category: String!
     totalAmount: Float!
